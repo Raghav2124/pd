@@ -6,4 +6,5 @@
 import pandas as pd
 # reading and printing csv file
 data = pd.read_csv('nba.csv')
-print(data.describe())
+#  use to_string() to print the entire DataFrame.
+print(data.describe ())
