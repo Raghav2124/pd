@@ -7,5 +7,5 @@ print(data)
 print(data1)
 # we can add two series using add(). keyword
 #fill_vaalue=0 will be used to put the values to zero if there are less values present in it 
-s=data.add(data1, fill_value=0)
+s=data.add(data1, fill_value=0)#elements with same index are added e
 print(s)
